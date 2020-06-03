@@ -85,3 +85,33 @@ RSI (step two) = 100 - (100 / (1 + ((Prev Ave Gain * 13 + Current Gain) / (Prev 
 * DI+_Diff: abs((DI+) - (DI-))
 * DX (Direction Index): 100 * (DI+_Diff / DI+_Sum)
 * ADX (Average Direction Index): avg(DXi: (i = [n - 13, n])) 
+
+## OBV (On Balance Volume )
+
+* OBV is a momentum indicator which uses changes in trading volume as an indicator of future asset price moves.   
+
+* OBV formulation is based on the theory that volume precedes price movement. A rising OBV reflects positive volume pressure that can lead to higher prices and falling OBV predicts decline in prices.   
+
+* Leading market indicator but prone to making false signals. Typically used in conjunction with lagging indicators such as MACD.
+
+* The calculation of OBV is fairly straightforward and it is simply the cumulative sum of volume treaded adjusted for the direction of the corresponding asset price move.
+
+OBC = OBV(prev) + (close == close(prev) ? 0 : close > close(prev) ? volume : -volume).
+
+
+## Slopes   
+Visualization, see slop.py
+
+## Renko Chart   
+
+* Renko chart is built using price movement and not price against standardized time intervals - This filters out the noise and lets you visualize the true trend.
+
+* Price movements (fixed) are represented as bricks stacked at 45 degrees to each other. A new brick is added to the chart only when the price moves by a predetermined amount in either direction.
+
+* Renko charts have a time axis, but the time scale is not fixed. Some bricks may take longer to form than others, depending on how long it takes the price to move the required box size.
+
+* Renko charts typically use only the closing price based on the chart time frame chosen.
+
+## TA lib
+
+(link)[https://mrjbq7.github.io/ta-lib/]
