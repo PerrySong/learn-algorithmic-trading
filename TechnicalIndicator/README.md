@@ -112,6 +112,14 @@ Visualization, see slop.py
 
 * Renko charts typically use only the closing price based on the chart time frame chosen.
 
-## TA lib
+## TA lib   
 
-(link)[https://mrjbq7.github.io/ta-lib/]
+Is a technical analysis library (link)[https://mrjbq7.github.io/ta-lib/]
+
+* Pattern Recognition
+* Not a perfect library
+
+* TODO: figure out how to install the package
+
+Otherwise, you can only implement your own pattern recognition function.
+

@@ -53,4 +53,12 @@ Sharpe Ratio = (Rp - Rf) / (σp)
 * Sortino Ratio is a variation of Sharpe ratio which takes into account standard deviation of only negative returns.    
 * One of the criticism of Sharpe ratio is that it fails to distinguish between upside and downside fluctuation, Sortino makes than distinction and therefore considers only harmful volatility.
 
+## Maximum Drawdown & Calmar Ratio   
+
+* Largest percentage drop in asset price over a specified time period (distance between peak and trough in the line curve of the asset).
+
+* Investments with longer backtesting period will likely have larfer max drawdown and therefore caution must be applied in comparing across strategies.   
+
+* Calmar Ratio is the ratio of CAGR and Max drawdown and it's measure of risk adjusted return.
+
 
