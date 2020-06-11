@@ -141,6 +141,13 @@ Summary
 5. Model 4: The Percent Volatility Model   
 6. The Models Summarized   
 7. Position Sizing Used by Other Systems   
+8. Summary
+
+### Chapter 15: Conclusion
+
+1. Avoiding Mistakes   
+2. What's Left Now: An Interview with Dr. Tharp   
+
 
 
 
