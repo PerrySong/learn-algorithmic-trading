@@ -106,7 +106,25 @@ Cons:
 ## Add Your Profit-Taking Exits and Determine the R-Multiple Distribution of Your System and Its Expectancy   
 ## Determine the Accuracy of Your R-Multiple Distribution   
 ## Evaluate Your Overall System   
-## Use Position Sizing to Meet Your Objectives   
-13. Determine How You Can Improve Your System   
-14. Mentally Plan for Your Worst-Case Scenario  
+## Use Position Sizing to Meet Your Objectives  
+##  Determine How You Can Improve Your System   
+
+## Mentally Plan for Your Worst-Case Scenario  
+
+## Summary   
+1. There is a lot more to modeling excellence than just finding out what the key tasks are. You need to find the components of each task, and you need to be able to install the model in other people. We’ve been able to accomplish this with the system development model. However, the topic of model development would be an entire book by itself.   
+
+2. The references to all of these books are given in the Recommended Readings at the end of the book.   
+
+3. Chande’s book is very good, but I don’t agree with all his conclusions, especially when he starts testing portfolios and developing conclusions about position sizing.    
+
+4. These people may have purchased a dozen low-capitalization stocks. Eleven may turn out to be worthless, while one turns into a new giant. Because the stocks were largely ignored, the owner neither gets rid of the losers before they become worthless nor finds out about the winner until it is worth a lot of money.   
+
+5. Somehow fate is often cruel to people with such a great system. In this person’s case, he could not trade size. Nor was it possible for him to fix his problem psychologically because he did not believe that he had anything to do with the problem. In fact, at this point he cannot trade at all because he’s nervous and he believes that his stomach is stopping him from trading. Thus, in my opinion, he doesn’t understand the real meaning behind a Holy Grail system—finding yourself in the market.    
+
+6. One of my clients has developed a day-trading system based on gains being significantly larger than losses. His system has a reliability rate of less than 50 percent, yet it nets him tremendous rates of return. This shows that there are other ways to conceive of short-term systems.   
+
+7. The word stop is used here because most people execute such stops by putting in a stop order in the market. This means “Execute my order as a market order once it reaches that price.”   
+
+8. If you are looking at your expectancy based on the results of real trading (that is, what you have been doing in the market), then a low expectancy (15 cents per dollar risked or less) could be due to psychological problems such as not following your system or panicking and taking profits too early.
 
