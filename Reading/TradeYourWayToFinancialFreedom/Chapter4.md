@@ -102,11 +102,11 @@ Cons:
 ## Determine the Essence of Your Trading and How You Can Objectively Measure It   
 
 
-8. Determine What Your Initial 1R Risk Will Be   
-9. Add Your Profit-Taking Exits and Determine the R-Multiple Distribution of Your System and Its Expectancy   
-10. Determine the Accuracy of Your R-Multiple Distribution   
-11. Evaluate Your Overall System   
-12. Use Position Sizing to Meet Your Objectives   
+## Determine What Your Initial 1R Risk Will Be   
+## Add Your Profit-Taking Exits and Determine the R-Multiple Distribution of Your System and Its Expectancy   
+## Determine the Accuracy of Your R-Multiple Distribution   
+## Evaluate Your Overall System   
+## Use Position Sizing to Meet Your Objectives   
 13. Determine How You Can Improve Your System   
 14. Mentally Plan for Your Worst-Case Scenario  
 
