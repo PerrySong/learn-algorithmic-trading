@@ -45,13 +45,62 @@
   # sample numbers from a Gaussian (normal) distribution
   np.random.normal(size=(2, 3)) # Standard normal, (mean = 0, s.d. = 1)
   np.random.normal(50, 10, size=(2, 3)) # change mean to 50 and s.d. to 10
+  
 ```
 
 ## Array attributes
 
 ```python
+  a = np.random.random((5, 4))
+  a.shape[0] # number of rows
+  a.shape[1] # number of columns
+  len(a.shape) # dimension
+  a.size # number of items in a
+  a.dtype # datatype of the array
 
-  np.shape[0] # number of rows
-  np.shape[1] # number of columns
-  len(np.shape) # dimension
+  # Iterate over rows, to compute sum of each column
+  a.sum(axis=0)
+
+  # Iterate over cols, to compute sum of each row
+  a.sum(axis=1)
+
+  import time
+  start = time.time()
+  #do someting
+  print(time.time() - start)
+
+  # Slicing
+  # Note: Slice n:m:t specifies a range that starts at n, and stops before m, in steps of t.
+  a[:, 0:3:2] # Will select columns 0, 2 for every row
+
+  # Assign value 
+  a[1, 1] = 1
+
+  # Assigning a single value to an entire row
+  a[0,:] = 2
+
+  # Assign a list of value
+  a[:, 2] = [1, 2, 3]
+
+
+  # Accessing using list of indices
+  a = np.random.rand(5)
+  indices = np.array([1,1,2,3])
+  print(a[indices])
+
+  # Calculating mean
+  mean = a.mean()
+  print(mean)
+
+  # masking
+  print(a[a<mean])
+
+  # Arthmetic operation
+  a / 2
+  a / 2.0
+  a + b
+  a * b # Not matrix product
+  
 ```
+
+## 
