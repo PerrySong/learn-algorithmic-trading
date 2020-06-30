@@ -19,3 +19,22 @@
 3. Market Direction   
 
 4. Setup Conditions  
+
+5. Market Timing 
+
+## 'Failed-Test' Setups  
+
+## Climax Reversals or Exhaustion Pattern Setups
+* Gap Climax Move
+
+## Retracement Setups
+Consider developing your own methods based on such retracements because some of the best trend-following methods I’ve ever seen are based on this concept.
+
+## Filters Versus Setups
+Different types of data:
+1. Time Setup  
+2. Price Data in Sequence  
+3. Fundamental Data  
+4. Volume Data: These readings should combined with an entry signal of price moving in the expected direction.  
+5. Component Data: 
+6. Volatility  
