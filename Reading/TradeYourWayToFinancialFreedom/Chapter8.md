@@ -37,4 +37,11 @@ Different types of data:
 3. Fundamental Data  
 4. Volume Data: These readings should combined with an entry signal of price moving in the expected direction.  
 5. Component Data: 
-6. Volatility  
+6. Volatility  (narrow range indicate a break out)   
+7. Business Fundamentals   
+8. Management Information  
+
+## Setups Used by Well-Known Systems  
+1. Stock Market Setups 
+  * William O'Neil's CANSLIM Trend-Following Model  
+  * 
