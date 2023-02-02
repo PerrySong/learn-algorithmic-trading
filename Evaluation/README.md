@@ -38,3 +38,9 @@ Other Factors to Consider
 The PEG ratio doesn't take into account other factors that can help determine a company's value. For example, the PEG doesn't look at the amount of cash a company keeps on its balance sheet, which could add value if it's a large amount.
 
 Other factors analysts consider when evaluating stocks include the price-to-book ratio (P/B) ratio. This can help them determine if a stock is genuinely undervalued or if the growth estimates used to calculate the PEG ratio are simply inaccurate. To calculate the P/B ratio, divide the stock's price per share by its book value per share.
+
+# EV/FGP
+
+Enterprise Value / Forward Twelve Months Gross Profit
+
+# Dollar based net expension rate

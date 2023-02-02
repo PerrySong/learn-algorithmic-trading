@@ -6,6 +6,7 @@ from ibapi.wrapper import EWrapper # Translate the TWS msg
 from ibapi.contract import Contract
 import threading
 import time
+import sys
 
 class TradingApp(EWrapper, EClient): # Inherit 
     def __init__(self):
@@ -20,41 +21,48 @@ class TradingApp(EWrapper, EClient): # Inherit
     
         print("reqId: {}, contract: {}".format(reqId, contractDetails))
         
+    def historicalData(self, reqId, bar):
+        print("HistoricalData. ReqId: {}, Bar: {}".format(reqId, bar))
+        
 
-
-
-event = threading.Event()
-
+if __name__ == "__main__":
     
-app = TradingApp()
-app.connect("127.0.0.1", 7497, clientId=4)
-
-
-def ws_conn():
-    app.run()
-    event.wait()
-    if event.is_set():
-        app.close()
-
-conn_thread = threading.Thread(target=ws_conn)
-conn_thread.start()
-
-print("Start")
-
-
-# Get contract info
-time.sleep(3)
-contract = Contract()
-contract.symbol = 'AAPL'
-contract.secType = 'STK'
-contract.currecy = 'USD'
-contract.exchange = 'SMART'
-
-app.reqContractDetails(102, contract)
-
-time.sleep(5)
-print("completed")
-
+    app = TradingApp()
+    app.connect("127.0.0.1", 7497, clientId=6)
     
-
-event.set()
+    
+    def ws_conn(event):
+        app.run() # Blocking method until we call app.disconnect in a different thread
+        print("app ran")
+        event.wait()
+        print("event wait completed")
+        if event.is_set():
+            app.disconnect()
+            print('App closed')
+            sys.exit()
+    
+    
+    event = threading.Event()
+    conn_thread = threading.Thread(target=ws_conn, args=(event,))
+    conn_thread.start()
+    
+    print("Start")
+    
+    
+    # Get contract info
+    time.sleep(3)
+    contract = Contract()
+    contract.symbol = 'AAPL'
+    contract.secType = 'STK'
+    contract.currecy = 'USD'
+    contract.exchange = 'SMART'
+    
+    app.reqContractDetails(102, contract)
+    
+    time.sleep(5)
+    print("completed")
+    print("setting event")
+    app.disconnect()
+    event.set()
+    print("event set")
+    time.sleep(5)
